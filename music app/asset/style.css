@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 98vw;
+}
+
+.fadeOut {
+  opacity: 0;
+  transition: 0.8s ease-in-out;
+}
+
+.fadeIn {
+  opacity: 1;
+  transition: 0.8s ease-in-out;
+}
+
+/* .app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 10;
+  width: 98vw;
+  color: white;
+  background: none;
+}
+
+.music {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 98vw;
+}
+
+header h1 {
+  margin: 50px 0 30px 0;
+  text-align: center;
+  font-size: 60px;
+}
+
+header p {
+  font-size: 35px;
+}
+
+.pads {
+  width: 100vw;
+  background: transparent;
+}
+
+.wrapper {
+  display: grid;
+  width: 98vw;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 150px 150px 150px;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+.text {
+  font-size: 25px;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color: black;
+  font-weight: bold;
+}
+.pads > div {
+  position: relative;
+  height: 150px;
+  font-size: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  color: rgb(218, 212, 212);
+}
+
+.music-name p {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.pads > div:hover {
+  opacity: 0.6;
+  color: black;
+}
+
+.pads > div:hover .text {
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.pad1 {
+  background: #60d394;
+}
+.pad2 {
+  background: #d36060;
+}
+.pad3 {
+  background: #c060d3;
+}
+.pad4 {
+  background: #d3d160;
+}
+.pad5 {
+  background: #6860d3;
+}
+.pad6 {
+  background: #60b2d3;
+}
+.pad7 {
+  background: #d48d2f;
+}
+.pad8 {
+  background: #60d394;
+}
+.pad9 {
+  background: #d36060;
+}
+.pad10 {
+  background: #c060d3;
+}
+.pad11 {
+  background: #d3d160;
+}
+.pad12 {
+  background: #6860d3;
+}
+.pad13 {
+  background: #60b2d3;
+}
+.pad14 {
+  background: #d48d2f;
+}
+.pad15 {
+  background: #aaa49d;
+}
+
+.visual > div {
+  position: absolute;
+  bottom: 0%;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  bottom: 0%;
+  left: 20%;
+  bottom: 0%;
+  transform: scale(1);
+  z-index: -1;
+}
+
+.border {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+@keyframes jump {
+  0% {
+    bottom: 0%;
+    left: 20%;
+  }
+  50% {
+    bottom: 50%;
+    left: 50%;
+  }
+  100% {
+    bottom: 0%;
+    left: 80%;
+  }
+}

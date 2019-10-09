@@ -1,0 +1,458 @@
+.bokeh {
+  width: 99vw;
+  height: 115vh;
+  position: relative;
+  background: black;
+  overflow: hidden;
+}
+
+.bokeh div {
+  position: absolute;
+  border-radius: 50%;
+  -webkit-animation-name: bokeh;
+          animation-name: bokeh;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.bokeh div:nth-child(1) {
+  width: 11.8788rem;
+  height: 11.8788rem;
+  top: 85%;
+  left: 6%;
+  color: #ec6b025b;
+  opacity: 0.9;
+  -webkit-box-shadow: 16.8788rem 0 0.5645rem currentColor;
+          box-shadow: 16.8788rem 0 0.5645rem currentColor;
+  -webkit-filter: brightness(223%);
+          filter: brightness(223%);
+  -webkit-transform-origin: 19rem 10rem;
+          transform-origin: 19rem 10rem;
+  -webkit-animation-duration: 42s;
+          animation-duration: 42s;
+}
+
+.bokeh div:nth-child(2) {
+  width: 11.205rem;
+  height: 11.205rem;
+  top: 22%;
+  left: 63%;
+  color: #ec6b025b;
+  opacity: 0.6;
+  -webkit-box-shadow: 16.205rem 0 0.35506rem currentColor;
+          box-shadow: 16.205rem 0 0.35506rem currentColor;
+  -webkit-filter: brightness(270%);
+          filter: brightness(270%);
+  -webkit-transform-origin: -12rem -4rem;
+          transform-origin: -12rem -4rem;
+  -webkit-animation-duration: 46s;
+          animation-duration: 46s;
+}
+
+.bokeh div:nth-child(3) {
+  width: 11.82085rem;
+  height: 11.82085rem;
+  top: 36%;
+  left: 15%;
+  color: #ffa6007c;
+  opacity: 0.9;
+  -webkit-box-shadow: 16.82085rem 0 0.40224rem currentColor;
+          box-shadow: 16.82085rem 0 0.40224rem currentColor;
+  -webkit-filter: brightness(340%);
+          filter: brightness(340%);
+  -webkit-transform-origin: 5rem -4rem;
+          transform-origin: 5rem -4rem;
+  -webkit-animation-duration: 39s;
+          animation-duration: 39s;
+}
+
+.bokeh div:nth-child(4) {
+  width: 11.64909rem;
+  height: 11.64909rem;
+  top: 63%;
+  left: 68%;
+  color: #ffa6007c;
+  opacity: 0.75;
+  -webkit-box-shadow: 16.64909rem 0 0.69019rem currentColor;
+          box-shadow: 16.64909rem 0 0.69019rem currentColor;
+  -webkit-filter: brightness(297%);
+          filter: brightness(297%);
+  -webkit-transform-origin: -11rem 20rem;
+          transform-origin: -11rem 20rem;
+  -webkit-animation-duration: 27s;
+          animation-duration: 27s;
+}
+
+.bokeh div:nth-child(5) {
+  width: 11.30999rem;
+  height: 11.30999rem;
+  top: 41%;
+  left: 38%;
+  color: #ffa6007c;
+  opacity: 0.75;
+  -webkit-box-shadow: 16.30999rem 0 0.24024rem currentColor;
+          box-shadow: 16.30999rem 0 0.24024rem currentColor;
+  -webkit-filter: brightness(255%);
+          filter: brightness(255%);
+  -webkit-transform-origin: 14rem -7rem;
+          transform-origin: 14rem -7rem;
+  -webkit-animation-duration: 25s;
+          animation-duration: 25s;
+}
+
+.bokeh div:nth-child(6) {
+  width: 11.35738rem;
+  height: 11.35738rem;
+  top: 32%;
+  left: 57%;
+  color: #ffa6007c;
+  opacity: 1.05;
+  -webkit-box-shadow: 16.35738rem 0 0.63334rem currentColor;
+          box-shadow: 16.35738rem 0 0.63334rem currentColor;
+  -webkit-filter: brightness(275%);
+          filter: brightness(275%);
+  -webkit-transform-origin: -5rem -14rem;
+          transform-origin: -5rem -14rem;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
+}
+
+.bokeh div:nth-child(7) {
+  width: 11.2063rem;
+  height: 11.2063rem;
+  top: 85%;
+  left: 90%;
+  color: #ffa6007c;
+  opacity: 0.75;
+  -webkit-box-shadow: 16.2063rem 0 0.48937rem currentColor;
+          box-shadow: 16.2063rem 0 0.48937rem currentColor;
+  -webkit-filter: brightness(334%);
+          filter: brightness(334%);
+  -webkit-transform-origin: -6rem 1rem;
+          transform-origin: -6rem 1rem;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+}
+
+.bokeh div:nth-child(8) {
+  width: 11.21906rem;
+  height: 11.21906rem;
+  top: 61%;
+  left: 21%;
+  color: #fe000060;
+  opacity: 1.05;
+  -webkit-box-shadow: 16.21906rem 0 0.63788rem currentColor;
+          box-shadow: 16.21906rem 0 0.63788rem currentColor;
+  -webkit-filter: brightness(253%);
+          filter: brightness(253%);
+  -webkit-transform-origin: 20rem 14rem;
+          transform-origin: 20rem 14rem;
+  -webkit-animation-duration: 37s;
+          animation-duration: 37s;
+}
+
+.bokeh div:nth-child(9) {
+  width: 11.44504rem;
+  height: 11.44504rem;
+  top: 40%;
+  left: 65%;
+  color: #fe000060;
+  opacity: 0.6;
+  -webkit-box-shadow: 16.44504rem 0 0.23521rem currentColor;
+          box-shadow: 16.44504rem 0 0.23521rem currentColor;
+  -webkit-filter: brightness(227%);
+          filter: brightness(227%);
+  -webkit-transform-origin: -12rem 12rem;
+          transform-origin: -12rem 12rem;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
+}
+
+.bokeh div:nth-child(10) {
+  width: 11.58147rem;
+  height: 11.58147rem;
+  top: 66%;
+  left: 95%;
+  color: #ffa6007c;
+  opacity: 0.75;
+  -webkit-box-shadow: 16.58147rem 0 0.21813rem currentColor;
+          box-shadow: 16.58147rem 0 0.21813rem currentColor;
+  -webkit-filter: brightness(350%);
+          filter: brightness(350%);
+  -webkit-transform-origin: 3rem -18rem;
+          transform-origin: 3rem -18rem;
+  -webkit-animation-duration: 23s;
+          animation-duration: 23s;
+}
+
+.bokeh div:nth-child(11) {
+  width: 11.09827rem;
+  height: 11.09827rem;
+  top: 38%;
+  left: 74%;
+  color: #ec6b025b;
+  opacity: 1.05;
+  -webkit-box-shadow: 16.09827rem 0 0.4145rem currentColor;
+          box-shadow: 16.09827rem 0 0.4145rem currentColor;
+  -webkit-filter: brightness(233%);
+          filter: brightness(233%);
+  -webkit-transform-origin: -1rem -7rem;
+          transform-origin: -1rem -7rem;
+  -webkit-animation-duration: 21s;
+          animation-duration: 21s;
+}
+
+.bokeh div:nth-child(12) {
+  width: 11.9229rem;
+  height: 11.9229rem;
+  top: 1%;
+  left: 92%;
+  color: #fe000060;
+  opacity: 0.9;
+  -webkit-box-shadow: 16.9229rem 0 0.5387rem currentColor;
+          box-shadow: 16.9229rem 0 0.5387rem currentColor;
+  -webkit-filter: brightness(286%);
+          filter: brightness(286%);
+  -webkit-transform-origin: 3rem -8rem;
+          transform-origin: 3rem -8rem;
+  -webkit-animation-duration: 18s;
+          animation-duration: 18s;
+}
+
+.bokeh div:nth-child(13) {
+  width: 11.84551rem;
+  height: 11.84551rem;
+  top: 20%;
+  left: 79%;
+  color: #ffa6007c;
+  opacity: 1.05;
+  -webkit-box-shadow: 16.84551rem 0 0.2895rem currentColor;
+          box-shadow: 16.84551rem 0 0.2895rem currentColor;
+  -webkit-filter: brightness(319%);
+          filter: brightness(319%);
+  -webkit-transform-origin: -14rem -16rem;
+          transform-origin: -14rem -16rem;
+  -webkit-animation-duration: 28s;
+          animation-duration: 28s;
+}
+
+.bokeh div:nth-child(14) {
+  width: 11.40289rem;
+  height: 11.40289rem;
+  top: 59%;
+  left: 8%;
+  color: #ffa6007c;
+  opacity: 1.05;
+  -webkit-box-shadow: 16.40289rem 0 0.63409rem currentColor;
+          box-shadow: 16.40289rem 0 0.63409rem currentColor;
+  -webkit-filter: brightness(235%);
+          filter: brightness(235%);
+  -webkit-transform-origin: 16rem 6rem;
+          transform-origin: 16rem 6rem;
+  -webkit-animation-duration: 46s;
+          animation-duration: 46s;
+}
+
+.bokeh div:nth-child(15) {
+  width: 11.63519rem;
+  height: 11.63519rem;
+  top: 88%;
+  left: 42%;
+  color: #ec6b025b;
+  opacity: 1.05;
+  -webkit-box-shadow: 16.63519rem 0 0.36578rem currentColor;
+          box-shadow: 16.63519rem 0 0.36578rem currentColor;
+  -webkit-filter: brightness(219%);
+          filter: brightness(219%);
+  -webkit-transform-origin: -15rem 1rem;
+          transform-origin: -15rem 1rem;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+}
+
+.bokeh div:nth-child(16) {
+  width: 11.35765rem;
+  height: 11.35765rem;
+  top: 100%;
+  left: 24%;
+  color: #ec6b025b;
+  opacity: 0.75;
+  -webkit-box-shadow: 16.35765rem 0 0.31099rem currentColor;
+          box-shadow: 16.35765rem 0 0.31099rem currentColor;
+  -webkit-filter: brightness(262%);
+          filter: brightness(262%);
+  -webkit-transform-origin: -19rem -12rem;
+          transform-origin: -19rem -12rem;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+}
+
+.bokeh div:nth-child(17) {
+  width: 11.2008rem;
+  height: 11.2008rem;
+  top: 20%;
+  left: 42%;
+  color: #ffa6007c;
+  opacity: 0.9;
+  -webkit-box-shadow: 16.2008rem 0 0.29145rem currentColor;
+          box-shadow: 16.2008rem 0 0.29145rem currentColor;
+  -webkit-filter: brightness(251%);
+          filter: brightness(251%);
+  -webkit-transform-origin: -8rem -5rem;
+          transform-origin: -8rem -5rem;
+  -webkit-animation-duration: 25s;
+          animation-duration: 25s;
+}
+
+.bokeh div:nth-child(18) {
+  width: 11.96367rem;
+  height: 11.96367rem;
+  top: 94%;
+  left: 84%;
+  color: #ec6b025b;
+  opacity: 0.9;
+  -webkit-box-shadow: 16.96367rem 0 0.40941rem currentColor;
+          box-shadow: 16.96367rem 0 0.40941rem currentColor;
+  -webkit-filter: brightness(302%);
+          filter: brightness(302%);
+  -webkit-transform-origin: 5rem -3rem;
+          transform-origin: 5rem -3rem;
+  -webkit-animation-duration: 17s;
+          animation-duration: 17s;
+}
+
+.bokeh div:nth-child(19) {
+  width: 11.50973rem;
+  height: 11.50973rem;
+  top: 49%;
+  left: 57%;
+  color: #fe000060;
+  opacity: 0.9;
+  -webkit-box-shadow: 16.50973rem 0 0.49376rem currentColor;
+          box-shadow: 16.50973rem 0 0.49376rem currentColor;
+  -webkit-filter: brightness(266%);
+          filter: brightness(266%);
+  -webkit-transform-origin: 19rem 5rem;
+          transform-origin: 19rem 5rem;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+}
+
+.bokeh div:nth-child(20) {
+  width: 11.87233rem;
+  height: 11.87233rem;
+  top: 11%;
+  left: 28%;
+  color: #ffa6007c;
+  opacity: 1.05;
+  -webkit-box-shadow: 16.87233rem 0 0.33009rem currentColor;
+          box-shadow: 16.87233rem 0 0.33009rem currentColor;
+  -webkit-filter: brightness(242%);
+          filter: brightness(242%);
+  -webkit-transform-origin: 18rem -1rem;
+          transform-origin: 18rem -1rem;
+  -webkit-animation-duration: 35s;
+          animation-duration: 35s;
+}
+
+.bokeh div:nth-child(21) {
+  width: 11.80862rem;
+  height: 11.80862rem;
+  top: 58%;
+  left: 62%;
+  color: #ec6b025b;
+  opacity: 0.6;
+  -webkit-box-shadow: 16.80862rem 0 0.44291rem currentColor;
+          box-shadow: 16.80862rem 0 0.44291rem currentColor;
+  -webkit-filter: brightness(208%);
+          filter: brightness(208%);
+  -webkit-transform-origin: 20rem 19rem;
+          transform-origin: 20rem 19rem;
+  -webkit-animation-duration: 25s;
+          animation-duration: 25s;
+}
+
+.bokeh div:nth-child(22) {
+  width: 11.4374rem;
+  height: 11.4374rem;
+  top: 36%;
+  left: 46%;
+  color: #ec6b025b;
+  opacity: 1.05;
+  -webkit-box-shadow: 16.4374rem 0 0.63865rem currentColor;
+          box-shadow: 16.4374rem 0 0.63865rem currentColor;
+  -webkit-filter: brightness(208%);
+          filter: brightness(208%);
+  -webkit-transform-origin: -18rem -6rem;
+          transform-origin: -18rem -6rem;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+}
+
+.bokeh div:nth-child(23) {
+  width: 11.23856rem;
+  height: 11.23856rem;
+  top: 78%;
+  left: 82%;
+  color: #ffa6007c;
+  opacity: 0.6;
+  -webkit-box-shadow: 16.23856rem 0 0.41731rem currentColor;
+          box-shadow: 16.23856rem 0 0.41731rem currentColor;
+  -webkit-filter: brightness(246%);
+          filter: brightness(246%);
+  -webkit-transform-origin: 12rem 1rem;
+          transform-origin: 12rem 1rem;
+  -webkit-animation-duration: 18s;
+          animation-duration: 18s;
+}
+
+.bokeh div:nth-child(24) {
+  width: 11.8892rem;
+  height: 11.8892rem;
+  top: 82%;
+  left: 29%;
+  color: #ec6b025b;
+  opacity: 0.9;
+  -webkit-box-shadow: 16.8892rem 0 0.30039rem currentColor;
+          box-shadow: 16.8892rem 0 0.30039rem currentColor;
+  -webkit-filter: brightness(335%);
+          filter: brightness(335%);
+  -webkit-transform-origin: 17rem 4rem;
+          transform-origin: 17rem 4rem;
+  -webkit-animation-duration: 44s;
+          animation-duration: 44s;
+}
+
+.bokeh div:nth-child(25) {
+  width: 11.03869rem;
+  height: 11.03869rem;
+  top: 24%;
+  left: 13%;
+  color: #fe000060;
+  opacity: 0.75;
+  -webkit-box-shadow: 16.03869rem 0 0.57063rem currentColor;
+          box-shadow: 16.03869rem 0 0.57063rem currentColor;
+  -webkit-filter: brightness(249%);
+          filter: brightness(249%);
+  -webkit-transform-origin: -10rem 0rem;
+          transform-origin: -10rem 0rem;
+  -webkit-animation-duration: 36s;
+          animation-duration: 36s;
+}
+
+@-webkit-keyframes bokeh {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes bokeh {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=bokeh.css.map */
